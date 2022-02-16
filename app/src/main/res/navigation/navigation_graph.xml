@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_graph"
+    app:startDestination="@id/exoPlayerFragment">
+
+    <fragment
+        android:id="@+id/exoPlayerFragment"
+        android:name="com.example.exoplayer.VideoFragment"
+        android:label="fragment_exo_player"
+        tools:layout="@layout/fragment_exo_player" />
+    <fragment
+        android:id="@+id/fullScreenFragment"
+        android:name="com.example.exoplayer.FullScreenVideoFragment"
+        android:label="fragment_full_screen"
+        tools:layout="@layout/fragment_full_screen" >
+        <action
+            android:id="@+id/action_fullScreenFragment_to_photoFragment"
+            app:destination="@id/photoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/fullScreenInfoPopupFragment"
+        android:name="com.example.exoplayer.FullScreenInfoPopupFragment"
+        android:label="fragment_full_screen_info_popup"
+        tools:layout="@layout/fragment_full_screen_info_popup" />
+    <fragment
+        android:id="@+id/photoFragment"
+        android:name="com.example.exoplayer.PhotoFragment"
+        android:label="fragment_photo"
+        tools:layout="@layout/fragment_photo" />
+</navigation>

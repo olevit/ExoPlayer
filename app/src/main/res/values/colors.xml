@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="top_pink">#EE3297</color>
+    <color name="title_name_pink">#B32078</color>
+    <color name="title_pink">#FFF0F6</color>
+    <color name="tabs_text_color">#B32078</color>
+    <color name="title_text_pink">#E67FBD</color>
+
+
+    <color name="colorWhite">#FFFFFFFF</color>
+    <color name="nav_bar_scrim">#99FFFFFF</color>
+    <color name="transparent">#00000000</color>
+    <color name="button_text_color">#706085</color>
+    <color name="rbutton_text_color">#B32078</color>
+    <color name="number_background">#495057</color>
+    <color name="sub_btns_color">#E03131</color>
+    <color name="grey_text_color">#868E96</color>
+    <color name="darkgrey_text_color">#343A40</color>
+    <color name="bar_text_pink">#FFDEEB</color>
+
+    <!-- border -->
+    <color name="button_border">#B32078</color>
+    <color name="bg_primary_border">#FFDEEB</color>
+    <color name="bg_secondary_border">#E67FBD</color>
+
+    <!-- background -->
+    <color name="bg_primary_light">#FFF0F6</color>
+    <color name="bg_primary">#FFDEEB</color>
+    <color name="bg_secondary">#B32078</color>
+    <color name="bg_tab">#B32078</color>
+
+    <!-- text -->
+    <color name="textOnPrimary">#B32078</color>
+
+    <color name="violet_rect_color">#D0BFFF</color>
+    <color name="darkviolet_text_color">#7950F2</color>
+    <color name="grape_rect_color">#E599F7</color>
+    <color name="darkgrape_text_color">#9C36B5</color>
+    <color name="pink_rect_color">#FCC2D7</color>
+    <color name="darkpink_text_color">#B32078</color>
+    <color name="lime_rect_color">#C0EB75</color>
+    <color name="darklime_text_color">#94D82D</color>
+    <color name="green">#51CF66</color>
+    <color name="blue_rect_color">#A5D8FF</color>
+    <color name="darkblue_text_color">#339AF0</color>
+    <color name="count_text_color">#4F81BA</color>
+
+    <!--   payment -->
+    <color name="primary_payment">#5F65D4</color>
+    <color name="primaryDark_payment">#392996</color>
+    <color name="accent_payment">#5469d4</color>
+    <color name="textPrimary_payment">#000000</color>
+    <color name="text_payment">#202020</color>
+    <color name="text_hint_payment">#FF018786</color>
+    <color name="control_activated_payment">#FF03DAC5</color>
+
+
+    <color name="transparent_grey">#77000000</color>
+    <color name="hint_bg_default_color">#FFFFFF</color>
+    <color name="hint_bg_default_color1">#143A3F</color>
+    <color name="day_protein_color">#339AF0</color>
+    <color name="day_carbs_color">#F03E3E</color>
+    <color name="day_fats_color">#FAB005</color>
+    <color name="day_calories_color">#343A40</color>
+    <color name="white80">#CCFFFFFF</color>
+    <color name="yellow_progress">#FFD43B</color>
+
+    <!--   line -->
+
+    <color name="grey_line">#CED4DA</color>
+
+    <!--add this color for textInputLayout in Store Order -->
+
+    <color name="mtrl_textinput_default_box_stroke_color" tools:override="true">#B32078</color>
+
+
+</resources>

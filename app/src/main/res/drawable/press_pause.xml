@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <layer-list>
+            <item
+                android:drawable="@drawable/circle"
+                android:gravity="fill"/>
+
+            <item
+                android:height="50dp"
+                android:width="50dp"
+                android:drawable="@drawable/ic_round_pause_24"
+                android:gravity="center" />
+        </layer-list>
+    </item>
+</selector>

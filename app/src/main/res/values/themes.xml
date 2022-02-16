@@ -1,0 +1,286 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="Theme.ExoPlayer" parent="Theme.AppCompat.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/white</item>
+        <item name="colorPrimaryDark">@color/top_pink</item>
+        <item name="colorAccent">@color/white</item>
+        <item name="android:textViewStyle">@style/RobotoTextViewStyle</item>
+        <item name="android:buttonStyle">@style/RobotoButtonStyle</item>
+        <item name="android:editTextStyle">@style/RobotoEditStyle</item>
+        <item name="android:autofilledHighlight">@android:color/transparent</item>
+        <item name="colorPrimaryVariant">@color/colorWhite</item>
+        <item name="colorSecondaryVariant">@color/colorWhite</item>
+        <item name="colorSurface">@color/bg_secondary</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorOnSecondary">@color/colorWhite</item>
+        <item name="colorOnBackground">@color/colorWhite</item>
+        <item name="colorOnError">@color/day_carbs_color</item>
+        <item name="colorOnSurface">@color/bg_secondary</item>
+        <item name="scrimBackground">@color/mtrl_scrim_color</item>
+        <item name="textAppearanceHeadline1">@style/TextAppearance.MaterialComponents.Headline1</item>
+        <item name="textAppearanceHeadline2">@style/TextAppearance.MaterialComponents.Headline2</item>
+        <item name="textAppearanceHeadline3">@style/TextAppearance.MaterialComponents.Headline3</item>
+        <item name="textAppearanceHeadline4">@style/TextAppearance.MaterialComponents.Headline4</item>
+        <item name="textAppearanceHeadline5">@style/TextAppearance.MaterialComponents.Headline5</item>
+        <item name="textAppearanceHeadline6">@style/TextAppearance.MaterialComponents.Headline6</item>
+        <item name="textAppearanceSubtitle1">@style/TextAppearance.MaterialComponents.Subtitle1</item>
+        <item name="textAppearanceSubtitle2">@style/TextAppearance.MaterialComponents.Subtitle2</item>
+        <item name="textAppearanceBody1">@style/TextAppearance.MaterialComponents.Body1</item>
+        <item name="textAppearanceBody2">@style/TextAppearance.MaterialComponents.Body2</item>
+        <item name="textAppearanceCaption">@style/TextAppearance.MaterialComponents.Caption</item>
+        <item name="textAppearanceButton">@style/TextAppearance.MaterialComponents.Button</item>
+        <item name="textAppearanceOverline">@style/TextAppearance.MaterialComponents.Overline</item>
+        <item name="android:windowSoftInputMode">adjustPan</item>
+    </style>
+
+
+
+    <style name="Widget.AppTheme.AppBar" parent="ThemeOverlay.MaterialComponents" />
+
+
+
+    <style name="registrationEditText">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textColorHint">@color/white</item>
+        <item name="hintTextColor">@color/white</item>
+        <item name="android:textSize">18dp</item>
+        <item name="android:maxLines">1</item>
+        <item name="boxStrokeColor">@color/white</item>
+
+    </style>
+
+    <style name="registrationEditTextContainer">
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textColorHint">@color/white</item>
+        <item name="hintTextColor">@color/white</item>
+
+    </style>
+
+    <style name="registrationTextView">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">18dp</item>
+    </style>
+
+    <style name="MenuTextView" parent="Widget.AppCompat.TextView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textAlignment">viewStart</item>
+        <item name="android:paddingHorizontal">15dp</item>
+
+    </style>
+
+    <style name="EditTextContainer">
+
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="myAccountEditTextContainer" parent="EditTextContainer">
+        <item name="android:layout_marginHorizontal">10dp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textColorHint">@color/title_name_pink</item>
+        <item name="android:textCursorDrawable">@color/title_name_pink</item>
+        <item name="hintTextColor">@color/title_name_pink</item>
+    </style>
+
+    <style name="CreateFoodEditTextContainer" parent="EditTextContainer">
+        <item name="android:textSize">18sp</item>
+        <item name="android:backgroundTint">@color/black</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textColorHint">@color/black</item>
+        <item name="hintTextColor">@color/black</item>
+    </style>
+
+
+    <style name="SubscriptionEditTextContainer">
+
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_marginHorizontal">10dp</item>
+        <item name="android:paddingVertical">5dp</item>
+
+        <item name="android:maxLines">1</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textColorHint">@color/black</item>
+        <item name="hintTextColor">@color/black</item>
+    </style>
+    <!-- for Store Order -->
+    <style name="StoreHomeOrderShippingEditText">
+        <item name="android:singleLine">true</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+    <style name="MySettingsRadioButtons">
+        <item name="android:layout_height">30dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_margin">1dp</item>
+        <item name="android:button">@null</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingHorizontal">10dp</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="MyConnectionsTextView">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:textSize">12dp</item>
+        <item name="android:textAlignment">gravity</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="BottomNavigationViewStyle">
+        <item name="android:background">#FFF0F6</item>
+        <item name="itemTextColor">#FFF0F6</item>
+        <item name="itemIconTint">#E67FBD</item>
+    </style>
+
+    <style name="RobotoTextViewStyle" parent="android:Widget.TextView">
+    </style>
+
+    <style name="RobotoButtonStyle" parent="android:Widget.Holo.Button">
+    </style>
+
+    <style name="RobotoEditStyle" parent="android:Widget.Holo.EditText">
+    </style>
+
+
+
+    <style name="FoodTabsTextAppearance" parent="TextAppearance.Design.Tab">
+        <item name="android:textSize">16sp</item>
+        <item name="textAllCaps">false</item>
+        <item name="android:textAllCaps">false</item>
+
+        <item name="android:textColor">@color/black</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="TrainTabsTextAppearance" parent="TextAppearance.Design.Tab">
+        <item name="android:textSize">18sp</item>
+        <item name="textAllCaps">false</item>
+        <item name="android:textAllCaps">false</item>
+
+        <item name="android:textColor">@color/black</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="FoodWeekDaysTabsTextAppearance" parent="TextAppearance.Design.Tab">
+        <item name="android:textSize">14sp</item>
+        <item name="textAllCaps">false</item>
+        <item name="android:textAllCaps">false</item>
+
+
+    </style>
+
+
+
+
+
+    <!-- payments -->
+    <style name="Header" parent="@android:style/Widget.TextView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">5dp</item>
+        <item name="android:paddingBottom">4dp</item>
+        <item name="android:paddingStart">3dp</item>
+        <item name="android:paddingEnd">3dp</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+    </style>
+
+    <style name="Divider">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">?android:attr/listDivider</item>
+    </style>
+
+    <style name="DividerPink" parent="Divider">
+        <item name="android:background">@color/bg_primary_border</item>
+    </style>
+
+    <style name="CardWidgetStyle" parent="@android:style/Theme.DeviceDefault">
+        <item name="editTextStyle">@style/EditTextOverride</item>
+        <item name="android:editTextStyle">@style/EditTextOverride</item>
+    </style>
+
+    <style name="EditTextOverride" parent="@android:style/Widget.EditText">
+        <item name="android:textColor">@color/text_payment</item>
+        <item name="android:textColorHint">@color/text_hint_payment</item>
+    </style>
+
+    <style name="PaymentCardTheme">
+        <item name="colorPrimaryDark">@color/primaryDark_payment</item>
+        <item name="android:textColorHint">@color/text_hint_payment</item>
+        <item name="colorAccent">@color/accent_payment</item>
+        <item name="colorControlNormal">@color/primaryDark_payment</item>
+        <item name="colorControlActivated">@color/control_activated_payment</item>
+        <item name="android:textColor">@color/text_payment</item>
+        <item name="editTextStyle">@style/EditTextOverride</item>
+        <item name="android:editTextStyle">@style/EditTextOverride</item>
+
+    </style>
+
+    <style name="GradientBtnStyle">
+        <item name="android:layout_width">194dp</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <!-- Texts Styles -->
+
+    <style name="Text">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="ToolbarTitle" parent="Text">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/title_text_pink</item>
+    </style>
+
+
+    <!--   change the cursor color in TextInputLayout -->
+
+    <!-- Texts Styles -->
+
+
+
+
+    <!--    <style name="StripeDefaultTheme" parent="StripeBaseTheme">-->
+    <!--        &lt;!&ndash; Applied to toolbar background &ndash;&gt;-->
+    <!--        <item name="colorPrimary">@color/primary_payment</item>-->
+
+    <!--        &lt;!&ndash; Applied to status bar &ndash;&gt;-->
+    <!--        <item name="colorPrimaryDark">@color/primaryDark_payment</item>-->
+
+    <!--        &lt;!&ndash; Applied to inactive Shipping Method name and amount &ndash;&gt;-->
+    <!--        <item name="android:textColorPrimary">@color/text_payment</item>-->
+
+    <!--        &lt;!&ndash; Applied to inactive Shipping Method description &ndash;&gt;-->
+    <!--        <item name="android:textColorSecondary">@color/textPrimary_payment</item>-->
+
+    <!--        &lt;!&ndash; Applied to Shipping Information drop-down items; add Payment Method footer text color &ndash;&gt;-->
+    <!--        <item name="android:textColor">@color/textPrimary_payment</item>-->
+
+    <!--        &lt;!&ndash; Applied to toolbar foreground/text &ndash;&gt;-->
+    <!--        <item name="titleTextColor">@color/title_payment</item>-->
+
+    <!--        &lt;!&ndash; Applied to selected Payment Method; active field; links; add new Payment Method call-to-action &ndash;&gt;-->
+    <!--        <item name="colorAccent">@color/accent_payment</item>-->
+
+    <!--        &lt;!&ndash; Applied to: Payment Method icon; inactive form field highlight &ndash;&gt;-->
+    <!--        <item name="colorControlNormal">@color/accent_payment</item>-->
+
+    <!--        &lt;!&ndash; Applied to form field text &ndash;&gt;-->
+    <!--        <item name="android:editTextColor">@color/textPrimary_payment</item>-->
+
+    <!--        <item name="editTextColor">@color/textPrimary_payment</item>-->
+    <!--    </style>-->
+</resources>
